@@ -23,6 +23,7 @@ public class SreenShotOfWebElement2 {
 		File destFile = new File("./screenshots/"+timeStamp+"robot.png");
 		FileUtils.copyFile(tempFile, destFile);
 		driver.quit();		
+		
 	}
 
 }
