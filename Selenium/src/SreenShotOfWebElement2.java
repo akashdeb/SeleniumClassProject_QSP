@@ -22,8 +22,7 @@ public class SreenShotOfWebElement2 {
 		String timeStamp = LocalDateTime.now().toString().replace(":", "-");
 		File destFile = new File("./screenshots/"+timeStamp+"robot.png");
 		FileUtils.copyFile(tempFile, destFile);
-		driver.quit();	
-		
+		driver.quit();		
 	}
 
 }
