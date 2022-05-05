@@ -1,0 +1,5 @@
+sleep(5000)
+Send("C:\Users\LENOVO\Desktop\project assignment\Project 2.docx")
+Sleep(5000)
+Send("{ENTER}")
+Sleep(3000)
